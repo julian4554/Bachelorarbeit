@@ -1,0 +1,27 @@
+# BSI O.TrdP_2: Aktuelle Dependency-Versionen
+# Letzte Prüfung: 2025-01
+
+# Web-Framework
+Flask>=3.0.0,<4.0.0
+
+# Passwort-Hashing (BSI O.Cryp_2, O.Pass_5)
+bcrypt>=4.1.0,<5.0.0
+
+# Input-Validierung (BSI O.Source_1)
+marshmallow>=3.20.0,<4.0.0
+
+# XSS-Schutz (BSI O.Source_2)
+MarkupSafe>=2.1.0,<3.0.0
+
+# 2FA TOTP (BSI O.Auth_3)
+pyotp>=2.9.0,<3.0.0
+
+# QR-Code für 2FA Setup (BSI O.Auth_3)
+qrcode>=7.4.0,<8.0.0
+
+# Browser-Erkennung (BSI O.Arch_7, O.Arch_8)
+ua-parser>=1.0.0,<2.0.0
+
+# Produktions-Server
+gunicorn>=21.0.0,<23.0.0;platform_system!="Windows"
+waitress>=2.1.0,<3.0.0;platform_system=="Windows"
