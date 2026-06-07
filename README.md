@@ -1,5 +1,6 @@
 # Automatisiertes SAST in DevSecOps-CI/CD-Pipelines
 
+![Note Uni](BachelorarbeitNote.png)
 Prototyp und Begleitcode zu meiner Bachelorarbeit zum Thema **automatisierte Integration
 von Static Application Security Testing (SAST) in CI/CD-Pipelines** im Kontext
 sicherheitskritischer (Healthcare-)Software.
